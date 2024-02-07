@@ -4,6 +4,17 @@ print(nums)
 name =['Manisha','Tanisha','Raiyan','Ariyan']
 print(name)
 
+myList = ["apple","banana","cherry"]
+yourList = list(("apple","banana","cherry"));
+
+if "apple" in yourList:
+    print("yes")
+     
+print(myList)
+print(len(myList))
+print(type(myList))
+print(yourList)
+
 #Different type of Data
 values = [23,'Manisha',3.44]
 print(values)
@@ -14,6 +25,7 @@ print(mil)
 #Accessing List
 print(nums[1])
 
+#List Method
 #Slice a List
 print(f'{"Positive Slice Value is : "}{nums[2:4]}')
 print("Negative Slice Value is : " + str(nums[-5:-1]))
