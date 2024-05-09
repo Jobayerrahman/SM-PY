@@ -5,13 +5,14 @@ name =['Manisha','Tanisha','Raiyan','Ariyan']
 print(name)
 
 myList = ["apple","banana","cherry"]
+print(len(myList))
+
 yourList = list(("apple","banana","cherry"));
 
 if "apple" in yourList:
     print("yes")
-     
+
 print(myList)
-print(len(myList))
 print(type(myList))
 print(yourList)
 
@@ -23,7 +24,9 @@ mil=[nums,name]
 print(mil)
 
 #Accessing List
-print(nums[1])
+fruitList = ["apple","banana","cherry"];
+secondItem = fruitList[1];
+lastItem = fruitList[-1];
 
 #List Method
 #Slice a List
@@ -64,4 +67,11 @@ print(max(nums))
 print(sum(nums))
 
 print(sorted(name))
+
+
+fruitsList = ["apple","banana","cherry","orange","mango","melon","date"];
+if "apple" in fruitsList:
+    print("Yes, Apple is exist in fruitsList");
+
+
 
