@@ -11,3 +11,13 @@ remove()        ----> Removes the item with the specified value
 reverse()       ----> Reverses the order of the list
 sort()          ----> Sorts the list
 '''
+
+
+list =["a","r","e"];
+x = list.pop()
+
+print(x)
+
+x = list.append("Tisha")
+
+print(list)
