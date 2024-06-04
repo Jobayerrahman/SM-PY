@@ -1,23 +1,29 @@
+#Integer List
 nums =[12,34,54,87,96]
 print(nums)
 
-name =['Manisha','Tanisha','Raiyan','Ariyan']
+#String List
+name =['Man','Tan','Rai','Ari']
 print(name)
 
 myList = ["apple","banana","cherry"]
+print(myList)
+
+#Length of A List
 print(len(myList))
+#The List Type
+print(type(myList))
 
+#List Constructor
 yourList = list(("apple","banana","cherry"));
+print(yourList)
 
+#Check Item Exists or Not
 if "apple" in yourList:
     print("yes")
 
-print(myList)
-print(type(myList))
-print(yourList)
-
 #Different type of Data
-values = [23,'Manisha',3.44]
+values = [23,'Mani',3.44]
 print(values)
 
 mil=[nums,name]
