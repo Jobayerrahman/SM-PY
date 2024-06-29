@@ -9,9 +9,12 @@ for x in List01:
 
 print(f'{"List02 Items : "}{List02}')
 
+
 print("String Comprehension ----> ")
 StringList01 = ["apple", "banana", "cherry", "kiwi", "mango"]
 StringList02 = []
+
+
 
 for fruits in StringList01:
     if "a" in fruits:
