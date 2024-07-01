@@ -12,9 +12,6 @@ def solve(s):
     return str.join(newName)
 
 if __name__ == '__main__':
-
     s = "hello world"
-
     result = solve(s)
-
     print(result)
