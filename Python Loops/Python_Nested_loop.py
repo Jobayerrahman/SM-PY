@@ -12,14 +12,18 @@ if __name__ == '__main__':
         python_students.append([name, score])
 
     for stu in python_students:
-        second_lowest_score = lowest_score
         temp_stu_name = stu[0]
         temp_stu_score = stu[1]
 
         if temp_stu_score < lowest_score:
+            second_lowest_score = lowest_score
             lowest_score = temp_stu_score
-            last_score_name = [temp_stu_name]
+        elif temp_stu_score < second_lowest_score and temp_stu_name != lowest_score:
+            second_lowest_score = temp_stu_score
 
-    
+    student_list =[x[0] for x in python_students if second_lowest_score == x[1]]
+
+    sorted_student_list = sorted(student_list)
+
     print(second_lowest_score)
-    print(last_score_name)
+    print(sorted_student_list)
