@@ -2,7 +2,7 @@
 
 rows = int(input('Enter the number of rows : '))
 m = (2*rows)-4
-n = (2*rows)-4
+n = (2*rows)-8
 
 print("Upward Pyramid : ",end='')
 print()
