@@ -6,7 +6,7 @@ for i in range(0, elNumber):
     element = int(input("Enter the elements : "))
     List.append(element)
 
-sortedList = []
+
 for i in range(0,len(List)):
     for j in range(i+1,len(List)):
         if List[i] > List[j]:
