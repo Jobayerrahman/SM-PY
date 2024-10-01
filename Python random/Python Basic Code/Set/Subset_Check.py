@@ -4,3 +4,4 @@ Set02 ={'Banana','Berry','Melon','Mango'}
 
 print('Set01 is subset of Set02 : ',Set01.issubset(Set02))
 print('Set02 is subset of Set01 : ',Set02.issubset(Set01))
+
